@@ -1,7 +1,4 @@
-# kafka-producer-consumer-java
-JAVA Kafka Confluent Producer /Consumer app
-# kafka-producer-consumer-java
-## Overview
+# JAVA Kafka Confluent Producer /Consumer app Overview
 
 Produce encrypt messages to and consume decrypt messages from a Kafka cluster using the Java Producer and Consumer example.
 
