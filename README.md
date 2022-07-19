@@ -317,7 +317,7 @@ You can find the documentation and instructions for running this Java example at
 * azure.provider.name=azure_provider
 
 ## Producer example
- 
+ https://sonexushealth.visualstudio.com/IT%20Projects/_git/CardinalHealth.Services.Polaris?path=/java/src/main/java/io/confluent/examples/clients/cloud/ProducerExample.java&version=GBencrypt-decrypt-local-do-not-delete
 
 	final Properties props = loadConfig(args[0]); // Load properties from  Consumer/Producer KMS  Properties
 	props.put(ProducerConfig.ACKS_CONFIG, "all");
@@ -340,6 +340,8 @@ You can find the documentation and instructions for running this Java example at
       });
     }
 ## Consumer example
+https://sonexushealth.visualstudio.com/IT%20Projects/_git/CardinalHealth.Services.Polaris?path=/java/src/main/java/io/confluent/examples/clients/cloud/ConsumerExample.java&version=GBencrypt-decrypt-local-do-not-delete
+
   final Properties props = loadConfig(args[0]);
 
     // Add additional properties.
