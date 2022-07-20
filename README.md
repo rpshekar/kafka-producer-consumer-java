@@ -338,7 +338,8 @@ You can find the documentation and instructions for running this Java example at
             }
           }
       });
-    }
+    }![image](https://user-images.githubusercontent.com/26861964/179888889-f7ecaad4-b36e-4b56-bfd5-6cb3b2d0c3fc.png)
+
 ## Consumer example
 https://sonexushealth.visualstudio.com/IT%20Projects/_git/CardinalHealth.Services.Polaris?path=/java/src/main/java/io/confluent/examples/clients/cloud/ConsumerExample.java&version=GBencrypt-decrypt-local-do-not-delete
 
