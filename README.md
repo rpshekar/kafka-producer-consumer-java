@@ -302,7 +302,7 @@ You can find the documentation and instructions for running this Java example at
 * value.serializer.key=Polaris-Dev-Key  
 * encryption.provider.name=azure_provider 
 * azure_provider.provider.class=AzureCipherProvider 
-* azure_provider.provider.vault.name=polaris-kv-dev 
+* azure_provider.provider.vault.name=test-kv-dev 
 * azure_provider.provider.vault.client.id=<cliend id> 
 * azure_provider.provider.vault.client.secret=<secret> 
 * azure_provider.provider.vault.tenant.id=<tenent id> 
@@ -310,7 +310,7 @@ You can find the documentation and instructions for running this Java example at
 
 ##### Azure envelope
 * value.serializer.key = GeneratedKey
-* value.serializer.wrapping.key = Polaris-Dev-Key
+* value.serializer.wrapping.key = test-Dev-Key
 * value.serializer.wrapping.key.provider.name = azure
 * azure.provider.class=io.confluent.encryption.common.crypto.cipher.impl.CachedCipherProvider
 * azure.provider.expiry=3600
