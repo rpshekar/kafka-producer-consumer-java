@@ -1,5 +1,4 @@
-# kafka-producer-consumer-java
-## Overview
+# JAVA Kafka Confluent Producer /Consumer app Overview
 
 Produce encrypt messages to and consume decrypt messages from a Kafka cluster using the Java Producer and Consumer example.
 
@@ -303,7 +302,7 @@ You can find the documentation and instructions for running this Java example at
 * value.serializer.key=Polaris-Dev-Key  
 * encryption.provider.name=azure_provider 
 * azure_provider.provider.class=AzureCipherProvider 
-* azure_provider.provider.vault.name=polaris-kv-dev 
+* azure_provider.provider.vault.name=test-kv-dev 
 * azure_provider.provider.vault.client.id=<cliend id> 
 * azure_provider.provider.vault.client.secret=<secret> 
 * azure_provider.provider.vault.tenant.id=<tenent id> 
@@ -311,14 +310,14 @@ You can find the documentation and instructions for running this Java example at
 
 ##### Azure envelope
 * value.serializer.key = GeneratedKey
-* value.serializer.wrapping.key = Polaris-Dev-Key
+* value.serializer.wrapping.key = test-Dev-Key
 * value.serializer.wrapping.key.provider.name = azure
 * azure.provider.class=io.confluent.encryption.common.crypto.cipher.impl.CachedCipherProvider
 * azure.provider.expiry=3600
 * azure.provider.name=azure_provider
 
 ## Producer example
- 
+ https://sonexushealth.visualstudio.com/IT%20Projects/_git/CardinalHealth.Services.Polaris?path=/java/src/main/java/io/confluent/examples/clients/cloud/ProducerExample.java&version=GBencrypt-decrypt-local-do-not-delete
 
 	final Properties props = loadConfig(args[0]); // Load properties from  Consumer/Producer KMS  Properties
 	props.put(ProducerConfig.ACKS_CONFIG, "all");
@@ -341,6 +340,8 @@ You can find the documentation and instructions for running this Java example at
       });
     }
 ## Consumer example
+https://sonexushealth.visualstudio.com/IT%20Projects/_git/CardinalHealth.Services.Polaris?path=/java/src/main/java/io/confluent/examples/clients/cloud/ConsumerExample.java&version=GBencrypt-decrypt-local-do-not-delete
+
   final Properties props = loadConfig(args[0]);
 
     // Add additional properties.
